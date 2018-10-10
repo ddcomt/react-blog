@@ -1,6 +1,6 @@
 # react + antd 个人博客
 ## 演示地址
- [个人博客](https://www.zhangweijie.com.cn/)
+ [个人博客](www.zhangweijie.com.cn)
 
 ## 说明
 通过react框架,实现的个人博客全栈系统,该部分是博客前台部分,主要包括博客文章,心情,时间轴统计,以及个人简历.

@@ -246,18 +246,26 @@
   margin: 10px auto;
 }
 .undergo {
-  margin-top: -10%;
+  width: 80%;
 }
-.undergo .card {
+.undergo .title {
+  height: 5%;
+}
+.undergo .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.undergo .container .card {
   position: relative;
   text-align: left;
   display: flex;
   justify-content: center;
-  padding: 26px;
-  width: 750px;
-  height: 350px;
+  width: 47%;
+  margin: 1.5% 1.5%;
+  height: 35%;
   background: #f2f4f5;
-  margin: 5% auto;
+  margin: 10% auto;
   border: 1px solid #eee;
   border-radius: 10px;
   color: #000;
@@ -266,13 +274,13 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
   transform-style: preserve-3d;
 }
-.undergo .card .react {
+.undergo .container .card .react {
   position: absolute;
-  top: 90px;
+  top: 100px;
   left: 25px;
   font-family: iconfont;
   color: #0e8d82;
-  font-size: 80px;
+  font-size: 50px;
 }
 @keyframes react {
   from {
@@ -282,39 +290,37 @@
     transform: rotate(360deg);
   }
 }
-.undergo .card .card-title {
-  text-align: left;
+.undergo .container .card .card-title {
+  text-align: center;
   font-size: 22px;
   color: #8f594a;
   font-weight: 600;
+  margin-bottom: 0;
 }
-.undergo .card .card-right {
+.undergo .container .card .card-right {
   color: #8f594a;
 }
-.undergo .card .card-right div {
+.undergo .container .card .card-right div {
   font-weight: 600;
   font-size: 15px;
   margin: 8px 0;
 }
-.undergo .card .card-right div .strong {
+.undergo .container .card .card-right div .strong {
   font-weight: 600;
 }
-.undergo .card .card-right ul {
+.undergo .container .card .card-right ul {
   margin: 0;
   padding: 0;
 }
-.undergo .card .card-right ul li {
+.undergo .container .card .card-right ul li {
   margin: 5px 0;
 }
-.undergo .card .card-right ul span {
+.undergo .container .card .card-right ul span {
   color: #333;
   font-size: 16px;
 }
 .works {
   width: 60%;
-}
-.works .title {
-  margin-top: -10%;
 }
 .works .github {
   color: white;
@@ -384,11 +390,12 @@
   color: #fff;
 }
 .skill {
-  margin-top: -10%;
-  width: 900px;
+  width: 80%;
+  height: 100%;
 }
 .skill .title {
   margin-bottom: 10%;
+  height: 10%;
 }
 .skill .skills {
   display: flex;
@@ -401,7 +408,6 @@
   align-items: flex-start;
 }
 .skill .skills .skill-circle {
-  padding: 5px;
   position: relative;
   font-size: 12px;
   width: 300px;

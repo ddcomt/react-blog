@@ -2,7 +2,7 @@ import { Tooltip } from 'antd'
 import * as React from 'react'
 const CallMe = () => (
   <div className="call-me">
-    <p className="title">Contact Me</p>
+    <p className="title">联系我</p>
     <div className="tag">
       <span>写代码</span>
       <span>找灵感</span>

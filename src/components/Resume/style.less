@@ -253,76 +253,87 @@
     }
   }
 }
-.undergo {
-  margin-top: -10%;
-  .card {
-    position: relative;
-    text-align: left;
+.undergo { 
+  width: 80%;
+  .title{
+    height: 5%;
+  }
+  .container{
     display: flex;
-    justify-content: center;
-    padding: 26px;
-    width: 750px;
-    height: 350px;
-    background: #f2f4f5;
-    margin: 5% auto;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    color: #000;
-    transition: transform 0.3s linear, -webkit-transform 0.3s linear;
-    overflow: hidden;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-    transform-style: preserve-3d;
-    .react {
-      position: absolute;
-      top: 90px;
-      left: 25px;
-      font-family: iconfont;
-      color: #0e8d82;
-      font-size: 80px;
-      //animation: react infinite 20s linear;
-    }
-    @keyframes react {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-    .card-title {
+    flex-wrap: wrap;
+    align-content: space-between;
+    .card {
+      position: relative;
       text-align: left;
-      font-size: 22px;
-      color: #8f594a;
-      font-weight: 600;
-    }
-    .card-right {
-      color: #8f594a;
-      div {
-        font-weight: 600;
-        font-size: 15px;
-        margin: 8px 0;
-        .strong {
-          font-weight: 600;
+      display: flex;
+      justify-content: center;
+      width: 47%;
+      margin: 1.5% 1.5%;
+      height: 35%;
+      background: #f2f4f5;
+      margin: 10% auto;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      color: #000;
+      transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+      transform-style: preserve-3d;
+      .react {
+        position: absolute;
+        top: 100px;
+        left: 25px;
+        font-family: iconfont;
+        color: #0e8d82;
+        font-size: 50px;
+        //animation: react infinite 20s linear;
+      }
+      @keyframes react {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
         }
       }
-      ul {
-        margin: 0;
-        padding: 0;
-        li {
-          margin: 5px 0;
+      .card-title {
+        text-align: center;
+        font-size: 22px;
+        color: #8f594a;
+        font-weight: 600;
+        margin-bottom:0;
+
+      }
+      .card-right {
+        color: #8f594a;
+        div {
+          font-weight: 600;
+          font-size: 15px;
+          margin: 8px 0;
+          .strong {
+            font-weight: 600;
+          }
         }
-        span {
-          color: #333;
-          font-size: 16px;
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            margin: 5px 0;
+          }
+          span {
+            color: #333;
+            font-size: 16px;
+          }
         }
       }
     }
   }
+  
 }
 .works {
   width: 60%;
   .title {
-    margin-top: -10%;
+    
   }
   .github {
     color: white;
@@ -394,12 +405,14 @@
   }
 }
 .skill {
-  margin-top: -10%;
-  width: 900px;
+  width: 80%;
+  height: 100%;
+
   .title {
     margin-bottom: 10%;
+    height: 10%;
   }
-  .skills {
+  .skills { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -409,7 +422,7 @@
       align-items: flex-start;
     }
     .skill-circle {
-      padding: 5px;
+
       position: relative;
       font-size: 12px;
       width: 300px;

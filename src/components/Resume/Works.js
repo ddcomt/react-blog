@@ -2,27 +2,27 @@ import * as React from 'react'
 const list = [
   {
     content:
-      '(1)基于react框架的个人博客全栈系统,采用前后端分离(2)前端主要展示数据中的文章内容,归档内容以及说说  (3)后端管理系统可以对文章说说进行管理,添加和统计(4)用到的技术有:react react-redux react-router-dom  fetch antd等',
-    title: 'react个人博客系统+后台管理',
-    url: 'https://www.'
+      '基于react框架的个人博客前后端分离全栈系统，UI使用antd、flex布局兼容移动端;使用的技术有react，react-redux，react-router-dom，fetch，node，express，jsonwebtoken，passport等',
+    title: 'React个人博客+后台管理',
+    url: 'https://github.com/zhangwj0520/react-blog'
   },
   {
     content:
-      '(1)一个基于VUE框架的用于记录日常开销的一个家庭资金管理系统,后端采用野狗数据库(2)包括每天的收入,支出,资金的来源以及买了什么东西以及注册登录验证功能(3)主要用到的技术有vue vuex router axios node等',
-    title: 'VUE-全栈家庭资金管理系统',
-    url: 'http://adm.qqzi.com/react'
+      '使用vue框架和elementUI实现的简易资金管理项目，分权限登录注册,添加收入支出账单,记录时间,根据日期查询收支情况.用到的技术有vue vue-cli3.0 vuex vue-router axios node等',
+    title: 'VUE资金管理系统',
+    url: 'https://github.com/zhangwj0520/vue-ele'
   },
   {
     content:
-      '(1)一个基于VUE框架以pizza为例的点餐系统(2)主要功能有:顾客可以点餐,查看加入购物车的食物,并实时计算购物和食物的总价格;管理员可以往系统里添加或修改数据库中内容(3)用到的主要技术: vue-cli3.0 vuex vue-router axios等',
+      '使用vue框架和bootstrap实现的一个简单的pizza点餐系统，实现用户登录注册,全局路由守卫，价格管理等功能；主要技术栈: vue-cli3.0 vuex vue-router axios',
     title: 'VUE-全栈点餐系统',
-    url: 'https://pizza-order-0925.herokuapp.com/'
+    url: 'https://github.com/zhangwj0520/pizza-app/'
   },
   {
     content:
-      '(1)一个基于node的课程管理系统(2)主要功能有根据登录的不同的账号对此账号下的课程进行添加,编辑,删除等操作(3)用到的主要的技术:node handlebars模板引擎 method-override connect-flash等',
+      '基于node的课程管理系统,实现登录守卫，不同用户访问自己的数据；数据库使用MongoDB，登录守卫，密码加密存储，用到的主要的技术:node handlebars模板引擎 等',
     title: 'node课程管理系统',
-    url: 'https://nodeapp180923.herokuapp.com/'
+    url: 'https://github.com/zhangwj0520/node-app'
   }
 ]
 const Works = () => {
@@ -35,7 +35,7 @@ const Works = () => {
             <span className="work-title">{item.title}</span>
             <p>{item.content}</p>
             <a className="work-link" href={item.url} target="view_window">
-              网站地址
+              GitHub地址
             </a>
           </div>
         ))}
